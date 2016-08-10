@@ -1,0 +1,18 @@
+{
+  "name": "dynamodb-count-compare",
+  "version": "0.1.0",
+  "description": "Get the percent difference for the item count of a master table and its replica",
+  "main": "index.js",
+  "author": "Jonathan Seed <jonathan.j.seed@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Signiant/dynamodb-count-compare"
+  },
+  "dependencies": {
+    "argparse": "^1.0.7",
+    "async": "^2.0.1",
+    "aws-sdk": "^2.4.14",
+    "node-getopt": "^0.2.3"
+  }
+}
